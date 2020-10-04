@@ -17,7 +17,7 @@ Bot.on('message', msg => {
     } else if (msg.content.toLowerCase() === "can you help me") {
         msg.reply('Sorry I am patching up myself.But still try my best to help you!');
     } else if (msg.content.toLowerCase() === "bye") {
-        msg.reply('Bye. Hope to see you soon. Will be waiting for you as always.... Keep smiling no matter what happens in life. :)');
+        msg.reply('Bye. Hope to see you soon. Will be waiting for you as always.... Keep smiling no matter what happens in life.... :)');
     }
 })
 
